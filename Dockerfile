@@ -1,9 +1,9 @@
 FROM ubuntu:18.04
 LABEL maintainer=harendra247@hotmail.com
 
-# docker container run --net=host --env DISPLAY=unix:0.0 --privileged -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/:/dev/ -v /persistent/:/persistent/ -it harendra247/gstreamer:gst_latest /bin/bash
+# docker container run --net=host --env DISPLAY=unix:0.0 --privileged -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/:/dev/ -v /persistent/:/persistent/ -it harendra247/gst_pylon_server:latest /bin/bash
 
-# docker build -t harendra247/gstreamer:gst_latest -f ./Dockerfile_gstreamer .
+# docker build -t harendra247/gst_pylon_server:latest -f ./Dockerfile .
 
 USER root
 
